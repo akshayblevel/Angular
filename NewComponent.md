@@ -6,8 +6,8 @@ If we have child module then we need to move import from app.module.ts to childm
 
 app.module.ts
 
-```
-**import { MyFirstComponentComponent } from './my-first-component/my-first-component.component';**
+```javascript
+import { MyFirstComponentComponent } from './my-first-component/my-first-component.component';
 
 @NgModule({
 	

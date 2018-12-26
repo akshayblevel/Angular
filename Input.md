@@ -78,6 +78,6 @@ export class MyFirstComponentComponent implements OnInit {
 
 ```html
 
-app.component.html
+<app-my-first-component></app-my-first-component>
 
 ```

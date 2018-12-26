@@ -42,6 +42,6 @@ export class MyFirstComponentComponent implements OnInit {
 ```
 **app.component.html**
 
-```html
+```javascript
 <app-my-first-component></app-my-first-component>
 ```

@@ -32,9 +32,9 @@ export class MyFirstComponentComponent implements OnInit {
 <h2>Employee Details</h2>
 <div>
 <div>
-\{\{ employee.id \}\}
+{{ employee.id }}
 <hr/>
-\{\{ employee.name \}\}
+{{ employee.name }}
 </div>
 </div>
 ```

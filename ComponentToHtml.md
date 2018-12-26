@@ -28,8 +28,6 @@ export class MyFirstComponentComponent implements OnInit {
 ```
 **my-first-component.component.html**
 
-```
-
 <h2>Employee Details</h2>
 <div>
 <div>
@@ -39,7 +37,7 @@ export class MyFirstComponentComponent implements OnInit {
 </div>
 </div>
 
-```
+
 **app.component.html**
 
 ```html

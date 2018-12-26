@@ -28,13 +28,13 @@ export class MyFirstComponentComponent implements OnInit {
 ```
 **my-first-component.component.html**
 
-```html+javascript
+```text
 <h2>Employee Details</h2>
 <div>
 <div>
-{{ employee.id }}
+\{\{ employee.id \}\}
 <hr/>
-{{ employee.name }}
+\{\{ employee.name \}\}
 </div>
 </div>
 ```

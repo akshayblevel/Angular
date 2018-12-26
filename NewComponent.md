@@ -4,9 +4,9 @@
 
 If we have child module then we need to move import from app.module.ts to childmodule.module.ts
 
-app.module.ts
+**app.module.ts**
 
-```typescript
+```javascript
 import { MyFirstComponentComponent } from './my-first-component/my-first-component.component';
 
 @NgModule({
@@ -28,8 +28,9 @@ import { MyFirstComponentComponent } from './my-first-component/my-first-compone
 export class AppModule { }
 ```
 
-my-first-component.component.ts
+**my-first-component.component.ts**
 
+```javascript
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -48,4 +49,4 @@ export class MyFirstComponentComponent implements OnInit {
 	}
 
 }
-
+```

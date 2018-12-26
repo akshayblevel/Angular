@@ -1,3 +1,3 @@
-## Walmart SAP Integration
+## Angular Samples for Beginners
 
 

@@ -28,7 +28,7 @@ export class MyFirstComponentComponent implements OnInit {
 ```
 **my-first-component.component.html**
 
-```html,javascript
+```javascript
 
 <h2>Employee Details</h2>
 <div>
@@ -42,6 +42,6 @@ export class MyFirstComponentComponent implements OnInit {
 ```
 **app.component.html**
 
-```html,javascript
+```javascript
 <app-my-first-component></app-my-first-component>
 ```

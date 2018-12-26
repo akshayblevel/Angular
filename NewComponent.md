@@ -4,13 +4,14 @@
 MyFirstComponent
 ```
 
-```
+
 ng g c MyFirstComponent
 
 If we have child module then we need to move import from app.module.ts to childmodule.module.ts
 
 app.module.ts
 
+```Angular
 import { MyFirstComponentComponent } from './my-first-component/my-first-component.component';
 
 @NgModule({
@@ -30,6 +31,7 @@ import { MyFirstComponentComponent } from './my-first-component/my-first-compone
 })
 
 export class AppModule { }
+```
 
 my-first-component.component.ts
 
@@ -51,4 +53,4 @@ export class MyFirstComponentComponent implements OnInit {
 	}
 
 }
-```
+

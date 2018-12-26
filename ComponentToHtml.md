@@ -32,9 +32,13 @@ export class MyFirstComponentComponent implements OnInit {
 <h2>Employee Details</h2>
 <div>
 <div>
-\{{ employee.id \}}
+	{% raw %}
+		{{ employee.id }}
+	{% endraw %}
 <hr/>
-\{{ employee.name \}}
+	{% raw %}
+		{{ employee.name }}
+	{% endraw %}
 </div>
 </div>
 ```

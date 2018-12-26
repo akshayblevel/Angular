@@ -1,3 +1,5 @@
+## Component To HTML
+
 **my-first-component.component.ts**
 
 ```javascript
@@ -26,7 +28,7 @@ export class MyFirstComponentComponent implements OnInit {
 ```
 **my-first-component.component.html**
 
-```html
+```javascript
 <h2>Employee Details</h2>
 <div>
 <div>

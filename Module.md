@@ -1,5 +1,4 @@
-  
-  ## Module
+## Module
   
 **ng g m User**
 
